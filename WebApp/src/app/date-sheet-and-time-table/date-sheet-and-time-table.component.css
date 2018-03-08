@@ -1,0 +1,14 @@
+.nav-header{
+  list-style-type:none;
+}
+
+.nav-header li {
+  display:inline-block;  
+}
+.nav-button{
+  border: 1px solid #000;
+  border-bottom: 0px;
+}
+.active{
+  background-color:red;
+}
