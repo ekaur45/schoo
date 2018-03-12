@@ -30,7 +30,9 @@
 }
 
 
-
+.card{
+  padding-bottom:15px;
+}
 
 .heading p {
   border-bottom: 1px solid #8c8c8c;
@@ -39,3 +41,13 @@
     border-bottom: 2px solid black;
     font-size: 25px;
   }
+card-header:first-child {
+  border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+  
+}
+.tab-heading {
+  padding: .75rem 1.25rem !important;
+}
+.card-header{
+  padding:0;
+}
